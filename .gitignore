@@ -1,0 +1,4 @@
+.agents/
+.codemap/
+node_modules/
+skills-lock.json*

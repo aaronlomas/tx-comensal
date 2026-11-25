@@ -1,0 +1,29 @@
+{
+  "name": "tx-pl-restaurant",
+  "version": "1.0.0",
+  "description": "Taxorium Plugin - Rubro Gastronómico y Restaurante",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "build": "vite build"
+  },
+  "keywords": [
+    "taxorium",
+    "plugin",
+    "restaurant",
+    "pos",
+    "comandas",
+    "taxor"
+  ],
+  "author": "Taxorium Team",
+  "license": "MIT",
+  "peerDependencies": {
+    "@tabler/icons-svelte": "^3.0.0",
+    "svelte": "^5.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
+

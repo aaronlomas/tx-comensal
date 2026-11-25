@@ -1,0 +1,41 @@
+{
+  "id": "tx-comensal",
+  "name": "Comensal",
+  "version": "0.1.0",
+  "description": "Extension nativa para Taxorium - rubro gastronomía.",
+  "author": "@aaronlomas",
+  "category": "Rubro",
+  "rubro": "gastronomia",
+  "entry": "./src/index.ts",
+  "schema": "./schema.sql",
+  "contributes": {
+    "views": [
+      {
+        "id": "comensal-salon",
+        "nombre": "Comensal",
+        "icono": "IconChefHat",
+        "ubicacion": "sidebar:rubros",
+        "componente": "./src/components/RestaurantView.svelte"
+      }
+    ],
+    "commands": [
+      {
+        "id": "restaurant.abrirMesa",
+        "titulo": "Abrir Mesa",
+        "categoria": "Restaurante"
+      },
+      {
+        "id": "restaurant.gestionarMesas",
+        "titulo": "Gestionar Salones y Mesas",
+        "categoria": "Restaurante"
+      }
+    ]
+  },
+  "permissions": [
+    "taxor:drafts",
+    "taxor:vouchers",
+    "taxor:products",
+    "taxor:cash"
+  ]
+}
+
