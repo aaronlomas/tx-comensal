@@ -1,5 +1,5 @@
 {
-  "name": "tx-pl-restaurant",
+  "name": "tx-comensal",
   "version": "1.0.0",
   "description": "Taxorium Plugin - Rubro Gastronómico y Restaurante",
   "main": "src/index.ts",

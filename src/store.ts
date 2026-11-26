@@ -143,7 +143,7 @@ function loadPersistedData(): PersistedData {
 			}
 		}
 	} catch (e) {
-		console.warn('[tx-pl-restaurant] No se pudo leer datos locales, usando semilla inicial', e);
+		console.warn('[tx-comensal] No se pudo leer datos locales, usando semilla inicial', e);
 	}
 	return { ambientes: DEFAULT_AMBIENTES, comandas: {}, mesaTimers: {} };
 }
@@ -153,7 +153,7 @@ function savePersistedData(data: PersistedData) {
 	try {
 		window.localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
 	} catch (e) {
-		console.warn('[tx-pl-restaurant] No se pudo persistir datos locales', e);
+		console.warn('[tx-comensal] No se pudo persistir datos locales', e);
 	}
 }
 

@@ -24,22 +24,22 @@ export interface TaxorPlugin {
 }
 
 /**
- * Plugin de Rubro: Restaurante / Pollería (tx-pl-restaurant)
+ * Plugin de Rubro: Gastronomía / Comensal (tx-comensal)
  *
  * Se acopla de manera desacoplada al Core Taxor. Toda emisión
  * de comprobantes o consulta de inventario interactúa vía el SDK Taxor.
  */
 export const restaurantPlugin: TaxorPlugin = {
-	id: 'tx-pl-restaurant',
-	nombre: 'Restaurante',
-	rubro: 'restaurante',
-	version: '1.0.0',
-	descripcion: 'Gestión de salones, mesas y comandas para restaurantes y pollerías.',
+	id: 'tx-comensal',
+	nombre: 'Comensal',
+	rubro: 'gastronomia',
+	version: '0.1.0',
+	descripcion: 'Gestión de salones, mesas y comandas para gastronomía.',
 	icono: IconChefHat,
 	activo: true,
 	vistas: [
 		{
-			nombre: 'Restaurante',
+			nombre: 'Comensal',
 			icono: IconChefHat,
 			vista: RestaurantView
 		}

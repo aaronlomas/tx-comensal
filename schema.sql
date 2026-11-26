@@ -1,5 +1,5 @@
 -- ============================================================================
--- EXTENSION SCHEMA: tx-pl-restaurant
+-- EXTENSION SCHEMA: tx-comensal
 -- Base de datos aislada para el rubro gastronómico / restaurante de Taxorium.
 -- Este archivo se ejecuta en el espacio de la extensión y no altera las
 -- tablas del core de facturación.

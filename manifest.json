@@ -6,8 +6,10 @@
   "author": "@aaronlomas",
   "category": "Rubro",
   "rubro": "gastronomia",
+  "repository": "https://github.com/aaronlomas/tx-comensal",
   "entry": "./src/index.ts",
   "schema": "./schema.sql",
+  "details": "./DETAILS.md",
   "contributes": {
     "views": [
       {
